@@ -1130,7 +1130,6 @@
         }
         svg
           .selectAll('.' + subunit)
-          .transition()
             .style('fill', color);
       }
     }
